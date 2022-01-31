@@ -32,6 +32,13 @@ class ViewController: UIViewController {
 		let area = 0.5 * base * height
 		return area
 	}
+	
+	@IBAction func clear(_ sender: Any) {
+		textBase.text = ""
+		textHeight.text = ""
+		area.text = "0.0"
+	}
+	
 
 
 }
